@@ -1,0 +1,349 @@
+<!-- MY WEBSITE -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous"
+    >
+    <!-- Font Awesome Icons -->
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap"
+        crossorigin="anonymous"
+    >
+     <!-- Stylesheet -->
+     <link rel="stylesheet" href="./CSS/main.css">
+</head>
+
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar fixed-top navbar-expand-md navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">
+            <img src="./images/busi_back copy 2.png" width="50px" alt="LI" loading="lazy">
+          </a>
+        </a>
+
+
+        <!-- Toggle Navigation button -->
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Toggle Navigation -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home<span class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="./page2.html">
+                        Video Reel</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./page3.html">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main>
+        <!-- Hero -->
+        <section class="hero2">
+            <!-- Dark scrim over background video -->
+            <div class="overlay"></div>
+
+            <!-- Background video -->
+            <video playsinline autoplay muted loop>
+                <source
+                    src="./images/Portfolio.mp4"
+                    type="video/mp4"
+                >
+            </video>
+
+            <!-- Hero message -->
+            <div class="container h-100">
+                <div class="d-flex h-100 text-center align-items-center">
+                    <div class="w-100 text">
+                        <h2 class="display-3">Lorna Inman</h2>
+
+                        <p class="virtual-reality-artist">Virtual Reality Artist.</p>
+
+                        <!-- Call To Action button -->
+                        <button onclick="callToAction()" class="btn btn-lg btn-secondary"> Video Reel</button>
+                    </div>
+                </div>
+            </div><!-- end of Hero message -->
+        </section><!-- end of Hero -->
+
+    <!-- box 1 -->
+    <section class= "box1">
+       <div class="box1">
+            <div class="container">
+                <div class="h1">
+                     Hi! Welcome to my website.
+                </div>
+                <div class = "p">
+                    I'm Lorna, a Virtual Reality Artist, VR facilitator and XR enthusiast. I hand-paint immersive worlds from scratch to create memorable experiences for brands, events, conferences and have dabbled in VR live performing. My portfolio consists of client work, my own current art practice, and my university work. Take a glance at my video reel following the button above or have a closer look at each of my projects below! 
+                    <br><br>I'm a graduate of BA Art & Design (International) from the University of Leeds and I did a study year abroad at the Accademia di Belle Arti di Brera in Milan, Italy. My interest and love for exciting, immersive, emotion-filled expereinces of art has lead me to where I am today, and with this I have become enticed by the notion that immersive environments have the potential to elicit positive emotional states. </p>
+                </div>
+             </div>
+        </div>
+    </section>
+    <!-- end of box 1 -->
+
+             <!-- Projects -->
+             <section class="cards">
+             <!-- box 4 -->
+             <div class="box4">
+             <div class= "wrapper">
+                <div class= "box2">
+                  <!-- Cards -->
+                  <div class="row">
+      
+      
+                      <!-- Card 1 -->
+                        <div class="col-lg-4 col-sm-6 mb-4">
+                            <div class="card h-100"> 
+                                <!-- Clickable card -->
+                                <a href="#" class="card-link">
+                                 <!-- Image -->
+                                 <img {
+                                     class="card-img-top" 
+                                     src="./images/Investec_final_37.png" 
+                                     alt="Ninety One"
+                                     />
+                                     
+        
+                                    <!-- Background video 
+                                      <video { 
+                                            class="card-img-top"
+                                            playsinline autoplay muted loop>
+                                         <source
+                                             src="images/Investec_final_20.mp4" 
+                                             alt="Ninety One" 
+                                             type="video/mp4"
+                                             >
+                                            }
+                                     </video> -->
+                                     
+                                    <!-- Card text -->
+                                    <div class="card-body">
+                                        <h4 class="card-title">Ninety One</h4>
+                                        <p class="card-text">
+                                          Investec Asset Management have rebranded to Ninety One. This immersive timeline pathway takes the viewer through the development of their brand and the cultural influences that made them who they are from their nascent beginnings til now.
+                                        </p>        
+                                    </div><!-- end of Card text -->
+                                </a><!-- end of Clickable card -->
+                            </div>
+                        </div><!-- end of Card -->
+                      
+      
+                      
+                      <!-- Card 2 -->
+                      <div class="col-lg-4 col-sm-6 mb-4">
+                          <div class="card h-100">
+                              <!-- Clickable card -->
+                              <a href="#" class="card-link">
+                                  <!-- Image -->
+                                   <img class="card-img-top" src="./images/Waterfall.png" alt="">
+      
+                                  <!-- Background video
+                                    <video { 
+                                          class="card-img-top"
+                                          playsinline autoplay muted loop>
+                                       <source
+                                           src="images/Lorna_Waterfall_02.mp4" alt="Waterfall"
+                                           type="video/mp4"
+                                           >
+                                          }
+                                   </video> -->
+                                  <!-- Card text -->
+                                  <div class="card-body">
+                                      <h4 class="card-title">Waterfall</h4>
+                                  
+                                      <p class="card-text pb-4">
+                                               Waterfall is a painting created from imagination, experimenting with creating water textures and lighting as part of my artistic practice.
+                                      </p>        
+                                  </div><!-- end of Card text -->
+                              </a><!-- end of Clickable card -->
+                          </div>
+                      </div><!-- end of Card -->
+      
+                      <!-- Card 3 -->
+                      <div class="col-lg-4 col-sm-6 mb-4">
+                          <div class="card h-100">
+                              <!-- Clickable card -->
+                              <a href="#" class="card-link">
+
+                                <!-- Image -->
+                                <img class="card-img-top" src="./images/Automation Summit.png" alt="Automation Summit">
+
+                                  <!-- Background video 
+                                    <video { 
+                                          class="card-img-top"
+                                          playsinline autoplay muted loop>
+                                       <source
+                                           src=""
+                                           type="video/mp4"
+                                           >
+                                          }
+                                   </video> -->
+                                  <!-- Card text -->
+                                  <div class="card-body">
+                                      <h4 class="card-title">Google Automation Summit</h4>
+                                      <p class="card-text pb-4">I performed live on stage at the Google Automation Summit for 150 guests, creating an environment that described the topics that were going to be spoken about at the event.</p>      
+                                  </div><!-- end of Card text -->
+                              </a><!-- end of Clickable card -->
+                          </div>
+                      </div><!-- end of Card -->
+      
+                      <!-- Card 4 -->
+                      <div class="col-lg-4 col-sm-6 mb-4">
+                          <div class="card h-100">
+                              <!-- Clickable card -->
+                              <a href="#" class="card-link">
+                                  <!-- Image -->
+                                  <img class="card-img-top" src="./images/google.png" alt="Google Finance Week">
+                                  <!-- Background video
+                                    <video { 
+                                          class="card-img-top"
+                                          playsinline autoplay muted loop>
+                                       <source
+                                           src=""
+                                           type="video/mp4"
+                                           >
+                                          }
+                                   </video> -->
+                                  <!-- Card text -->
+                                  <div class="card-body">
+                                      <h4 class="card-title">Google Finance Week</h4>
+                                  
+                                      <p class="card-text pb-4">
+                                      Entertaining Google's Finance Week attendees with Tilt Brush, I created two drawings as templates of the Google logos for guests to embellish as they wish, facillitating many of their first tries using VR.
+                                      </p>        
+                                  </div><!-- end of Card text -->
+                              </a><!-- end of Clickable card -->
+                          </div>
+                      </div><!-- end of Card -->
+      
+                     <!-- Card 5 -->
+                     <div class="col-lg-4 col-sm-6 mb-4">
+                      <div class="card h-100">
+                          <!-- Clickable card -->
+                          <a href="#" class="card-link">
+                              <!-- Image -->
+                              <img class="card-img-top" src="./images/Forlorn Park.png" alt="Forlorn Park">
+                              <!-- Background video
+                                <video { 
+                                      class="card-img-top"
+                                      playsinline autoplay muted loop>
+                                   <source
+                                       src="images/Lorna_Park_10.mp4"
+                                       type="video/mp4"
+                                       >
+                                      }
+                               </video> -->
+                              <!-- Card text -->
+                              <div class="card-body">
+                                  <h4 class="card-title">Forlorn Park</h4>
+                                  <p class="card-text pb-4">My final project for my Degree Show, completing my Art & Design degree. It explores the theme of urban parks and their potential insight into the human - nature relationship.</p>      
+                              </div><!-- end of Card text -->
+                          </a><!-- end of Clickable card -->
+                      </div>
+                  </div><!-- end of Card -->
+      
+                      <!-- Card 6 -->
+                      <div class="col-lg-4 col-sm-6 mb-4">
+                          <div class="card h-100">
+                              <!-- Clickable card -->
+                              <a href="#" class="card-link">
+                                  <!-- Image -->
+                                  <img class="card-img-top" src="./images/Cave.png" alt="Cave">
+                                  <!-- Background video
+                                    <video { 
+                                          class="card-img-top"
+                                          playsinline autoplay muted loop>
+                                       <source
+                                           src="images/Lorna_Park_10.mp4"
+                                           type="video/mp4"
+                                           >
+                                          }
+                                   </video> -->
+                                  <!-- Card text -->
+                                  <div class="card-body">
+                                      <h4 class="card-title">Cave</h4>
+                                      <p class="card-text pb-4">This painting was an experiment of creating atmospheric light textures in Tilt Brush.</p>        
+                                  </div><!-- end of Card text -->
+                              </a><!-- end of Clickable card -->
+                          </div>
+                      </div><!-- end of Card -->
+                  </div><!-- end of Cards -->
+                </div><!-- End of Box -->
+              </section><!-- End of Projects -->
+            </div> <!-- end of container -->
+         </div><!-- end of box 4 -->
+
+    <!-- About -->
+    
+    <div class="box3">
+        <div class="container">
+
+        </div>
+    </div>
+
+</main>
+
+    <!-- Footer -->
+       <footer class="footer">
+       </footer>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+    >
+    </script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+    >
+    </script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+    >
+    </script>
+    <script src="JS/main.js"></script>
+    <script src="JS/"></script>
+</body>
+
+</html>
